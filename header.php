@@ -17,7 +17,7 @@
 	    $menuLocations = get_nav_menu_locations();
 	
 	    // On récupère l'ID de notre menu principal
-	    $menuID = $menucations['menu_principal'];
+	    $menuID = $menuLocations['menu_principal'];
      
 	    // On récupère les liens de ce menu
 	    $menu = wp_get_nav_menu_items($menuID);
