@@ -1,0 +1,22 @@
+<?php /* Template Name: About */ ?>
+<?php get_header(); ?>
+<header>
+	<h1 class="text-4xl"><?php the_field('title'); ?></h1>
+</header>
+<section>
+    <div>
+        <?= get_field('desc') ?>
+    </div>
+	<div class="grid grid-cols-2 grid-rows-2">
+        <?php
+            $images = [];
+            while(have_rows('images')): the_row();
+                $images[] = get_sub_field('image');
+            endwhile;
+        ?>
+		<img class="row-span-2" src="<?= $images[0] ?>" alt="">
+		<img class="" src="<?= $images[1] ?>" alt="">
+		<img class="" src="<?= $images[2] ?>" alt="">
+	</div>
+</section>
+<?php get_footer(); ?>
