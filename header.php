@@ -10,9 +10,9 @@
 
 <body <?php body_class();?>>
 <main class="bg-gray-400 mx-64">
-<nav class="flex justify-center">
+<nav class="flex justify-center p-4">
 
-    <ul class="bg-stone-50 max-w-min max-w-[70%] flex space-x-6 font-bold text-2xl">
+    <ul class="bg-stone-50 max-w-min max-w-[70%] flex space-x-6 p-2 rounded-md">
     <?php
 	    // On récupère la liste des menus
 	    $menuLocations = get_nav_menu_locations();
@@ -25,7 +25,7 @@
      
 	    // On boucle dans les liens et on les affiche
 	    foreach ( $menu as $navItem ) {
-            echo '<li><a href="'.$navItem->url.'" title="'.$navItem->title.'">'.$navItem->title.'</a></li>';
+            echo '<li><a class="text-2xl font-bold" href="'.$navItem->url.'" title="'.$navItem->title.'">'.$navItem->title.'</a></li>';
         }
     ?>
     </ul>
