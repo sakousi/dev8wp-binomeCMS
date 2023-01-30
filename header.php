@@ -10,10 +10,10 @@
 
 <body <?php body_class();?>>
 <main class="bg-gray-400 mx-64">
-<nav>
+<nav class="flex justify-center">
 
-    <ul class="flex bg-stone-50 max-w-min">
-        <li>Accueil</li>
+    <ul class="bg-stone-50 max-w-min">
+        <li class="">Accueil</li>
         <li>A propos</li>
         <li>Blog</li>
         <li>Contact</li>
