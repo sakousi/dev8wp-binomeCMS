@@ -1,7 +1,7 @@
 <?php /* Template Name: Accueil */ ?>
 <?php get_header(); ?>
 <header>
-	<h1>Devenez expert du créatif et du numérique</h1>
+	<h1 class="font-bold text-3xl mt-8 mb-4s">Devenez expert du créatif et du numérique</h1>
 	<img src="" alt="header image">
 </header>
 <section>
