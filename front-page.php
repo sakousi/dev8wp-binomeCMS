@@ -6,12 +6,12 @@
 </header>
 <section>
 	<p>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam deserunt dolor doloremque eius eos, error inventore obcaecati, odit perferendis possimus quae sed sunt temporibus vitae. Accusamus ad at debitis, deserunt distinctio dolores facilis laboriosam nesciunt repudiandae, tenetur ut vitae. Accusantium aspernatur atque blanditiis dolores doloribus, eum exercitationem facilis illum impedit iste maiores mollitia nisi, pariatur quas qui repellat totam!
-		
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam blanditiis eligendi error id molestias officiis repellat tempora. Dolore excepturi nisi officia reiciendis. Aut cum error eveniet expedita hic ipsam iusto provident reprehenderit, sunt voluptates? Deleniti dolore ea ex hic libero maxime odio placeat quibusdam. Accusamus ad adipisci consequatur nisi quae!
-		
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur nihil obcaecati quas tempore voluptates. Cum eum in quis rerum ullam!
-	</p>
+        Depuis plusieurs années, Digital Campus propose des formations dans les métiers du digital à Rennes. Situé à deux pas de la gare, en plein centre-ville de Rennes, le campus rennais accueille les étudiants passionnés du digital qui se forment aux métiers d’avenir.
+
+        Rennes est un bassin d’emploi digital en constante croissance. Un territoire tourné vers l’avenir, l’innovation et l’expérimentation technologique. Une dynamique portée par la présence de nombreuses entreprises : Klaxoon, Capeos Conseils, Yves Rocher, Le Duff, Steeple… On y retrouve aussi un écosystème digital solide avec Le Poool, né de la fusion de la Technoppole Rennes Atalante et la French Tech Rennes-Saint-Malo.
+
+        Saviez-vous aussi que Rennes a été élue 3e meilleure ville étudiante selon L’Etudiant ? Venir étudier à Rennes dans le digital et se former aux métiers du numérique est possible avec Digital Campus !
+    </p>
 	<div>
 		<div><img src="" alt=""></div>
 		<div><img src="" alt=""></div>
