@@ -12,7 +12,7 @@
 <main class="bg-gray-400 mx-64">
 <nav class="flex justify-center">
 
-    <ul class="bg-stone-50 max-w-min">
+    <ul class="bg-stone-50 max-w-min max-w-[50%] flex space-x-6">
     <?php
 	    // On récupère la liste des menus
 	    $menuLocations = get_nav_menu_locations();
