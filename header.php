@@ -9,7 +9,7 @@
 
 
 <body <?php body_class();?>>
-<main class="bg-gray-400 mx-64">
+<main class="bg-gray-200 mx-64">
 <nav class="flex justify-center p-4">
 
     <ul class="bg-stone-50 max-w-min max-w-[70%] flex space-x-6 p-2 rounded-md">
