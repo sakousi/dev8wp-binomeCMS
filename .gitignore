@@ -1,0 +1,5 @@
+# Fichier node
+/node_modules/
+package-lock.json
+# Fichier CSS generée par tailwind
+style.css
