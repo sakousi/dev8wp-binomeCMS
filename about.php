@@ -7,14 +7,14 @@
     <div>
         <?= get_field('desc') ?>
     </div>
-	<div class="grid grid-cols-2 grid-rows-2">
+	<div class="grid grid-cols-2 grid-rows-2 gap-4">
         <?php
             $images = [];
             while(have_rows('images')): the_row();
                 $images[] = get_sub_field('image');
             endwhile;
         ?>
-		<img class="row-span-2" src="<?= $images[0] ?>" alt="">
+		<img class="row-span-2 h-full max-w-full object-cover" src="<?= $images[0] ?>" alt="">
 		<img class="" src="<?= $images[1] ?>" alt="">
 		<img class="" src="<?= $images[2] ?>" alt="">
 	</div>
