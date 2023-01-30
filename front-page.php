@@ -13,11 +13,13 @@
 <section>
 	<p class="p-4">
         <?= get_field('desc') ?> </p>
-	<div class="flex space-x-10 p-4">
-		<div class=" container mx-auto px-4 h-96"><img src="<?= $images[2] ?>" alt=""></div>
-		<div><img src="<?= $images[3] ?>" alt=""></div>
-		<div><img src="<?= $images[4] ?>" alt=""></div>
-		<div><img src="<?= $images[5] ?>" alt=""></div>
+	<div class="flex space-x-10 p-4 justify-center">
+
+
+        <img class="h-80 w-48 w-full object-cover" src="<?= $images[2] ?>" alt="">
+		<img class="h-80 w-48 w-full object-cover" src="<?= $images[3] ?>" alt="">
+		<img class="h-80 w-48 w-full object-cover" src="<?= $images[4] ?>" alt=""><
+		<img class="h-80 w-48 w-full object-cover" src="<?= $images[5] ?>" alt=""><
 	</div>
 </section>
 <?php get_footer(); ?>
