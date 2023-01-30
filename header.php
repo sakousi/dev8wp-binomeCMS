@@ -9,6 +9,13 @@
 
 
 <body <?php body_class(); ?>>
-
+<nav>
+    <ul>
+        <li>Accueil</li>
+        <li>A propos</li>
+        <li>Blog</li>
+        <li>Contact</li>
+    </ul>
+</nav>
 
 <?php wp_body_open(); ?>
