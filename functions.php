@@ -11,7 +11,7 @@
 
 // Ajouter des classes au body
 	function my_plugin_body_class($classes) {
-		$classes[] = 'flex h-full flex-col bg-zinc-50 dark:bg-black';
+		$classes[] = 'h-full dark:bg-black';
 		return $classes;
 	}
 	
