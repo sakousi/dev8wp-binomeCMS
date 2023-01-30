@@ -1,4 +1,5 @@
 <?php /* Template Name: Accueil */ ?>
+<?php get_header(); ?>
 <header>
 	<h1>Devenez expert du créatif et du numérique</h1>
 	<img src="" alt="header image">
@@ -18,3 +19,4 @@
 		<div><img src="" alt=""></div>
 	</div>
 </section>
+<?php get_footer(); ?>
