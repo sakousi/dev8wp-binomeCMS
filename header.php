@@ -11,7 +11,8 @@
 <body <?php body_class();?>>
 <main class="bg-gray-400 mx-64">
 <nav>
-    <ul>
+
+    <ul class="flex bg-stone-50 max-w-min">
         <li>Accueil</li>
         <li>A propos</li>
         <li>Blog</li>
