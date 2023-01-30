@@ -8,7 +8,8 @@
 </head>
 
 
-<body <?php body_class(); ?>>
+<body <?php body_class();?>>
+<main class="bg-gray-400 mx-64">
 <nav>
     <ul>
         <li>Accueil</li>

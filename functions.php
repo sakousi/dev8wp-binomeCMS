@@ -11,9 +11,15 @@
 
 // Ajouter des classes au body
 	function my_plugin_body_class($classes) {
-		$classes[] = 'flex h-full flex-col bg-zinc-50 dark:bg-black';
+		$classes[] = 'h-full dark:bg-black';
 		return $classes;
 	}
 	
 	
 	add_filter('body_class', 'my_plugin_body_class');
+	
+// Ajouter page d'options ACF
+
+if (function_exists('acf_add_options_page')) {
+	acf_add_options_page();
+}

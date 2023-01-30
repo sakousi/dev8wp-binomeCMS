@@ -16,5 +16,6 @@
         <img src="" alt="Qualiopi">
     </div>
 </footer>
+</main>
 </body>
 </html>
