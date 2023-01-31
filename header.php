@@ -16,7 +16,7 @@
     <?php
 	    // On récupère la liste des menus
 	    $menuLocations = get_nav_menu_locations();
-	
+	git
 	    // On récupère l'ID de notre menu principal
 	    $menuID = $menuLocations['menu_principal'];
      
