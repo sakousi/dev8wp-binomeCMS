@@ -7,7 +7,7 @@
     <div class="p-4">
         <?= get_field('desc') ?>
     </div>
-	<div class="grid grid-cols-2 grid-rows-2 gap-4">
+	<div class="grid md:grid-cols-2 gap-4 grid-cols-1">
         <?php
             $images = [];
             while(have_rows('images')): the_row();
