@@ -1,9 +1,9 @@
 {
-    "key": "group_63d79d608a4d8",
-    "title": "A propos",
+    "key": "group_63d7df5a6ff52",
+    "title": "Blog",
     "fields": [
         {
-            "key": "field_63d79d688f89d",
+            "key": "field_63d7df5a7a198",
             "label": "Title",
             "name": "title",
             "type": "text",
@@ -22,26 +22,7 @@
             "maxlength": ""
         },
         {
-            "key": "field_63d79e5d8f89e",
-            "label": "Desc",
-            "name": "desc",
-            "type": "textarea",
-            "instructions": "",
-            "required": 1,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "maxlength": "",
-            "rows": "",
-            "new_lines": "wpautop"
-        },
-        {
-            "key": "field_63d7a24fe430e",
+            "key": "field_63d7df5a815f2",
             "label": "Images",
             "name": "images",
             "type": "repeater",
@@ -55,12 +36,12 @@
             },
             "collapsed": "",
             "min": 3,
-            "max": 10,
+            "max": 18,
             "layout": "table",
             "button_label": "",
             "sub_fields": [
                 {
-                    "key": "field_63d7a26fe430f",
+                    "key": "field_63d7df5a907c1",
                     "label": "image",
                     "name": "image",
                     "type": "image",
@@ -118,9 +99,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-<<<<<<< HEAD
-    "modified": 1675091459
-=======
-    "modified": 1675092758
->>>>>>> a3dc818461c8476f9fd8cda65c7b9277a178e1bb
+    "modified": 1675091849
 }
